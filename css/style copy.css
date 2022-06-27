@@ -1,0 +1,132 @@
+@import url('https://fonts.google.com/noto/specimen/Noto+Kufi+Arabic?query=kufi');
+
+/* Root */
+:root {
+    --font-family: 'Noto Kufi Arabic', sans-serif;
+    --primary-color: #022a4f;
+    --secondary-color: #1f4267;
+    /* --hover-color: */
+    /* --header-color: */
+    --paragraph-color: #000;
+
+}
+
+/* Reset Default */
+*, html, body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+/* Custome Style */
+p {
+    font-size: 10px;
+}
+section {}
+.container {}
+.header {}
+
+/* Key Frames */
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+/* Upper Navbar */
+.upper-navbar {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+.upper-navbar .col {
+    color: #fff);
+}
+.upper-navbar .col i {
+    padding-right: 10px;
+}
+
+/* Navbar */
+.navbar {
+    position: sticky;
+    background: #fff;
+    box-shadow: 0 0 10px 0;
+    z-index: 1;
+    top: 0;
+    padding: 1.1rem;
+}
+.navbar .navbar-list {
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar .navbar-list a {
+    color: var(--primary-color);
+    font-family: var(--font-family);
+    font-size: 16px;
+}
+.navbar .navbar-item {
+    font-family: var(--font-family);
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 18.4px;
+    color: var(--primary-color);
+}
+.navbar .flag {
+    position: relative;
+    top: 2;
+    width: 25px;
+}
+.navbar .dropdown {}
+.navbar .dropdown-item {}
+.navbar .dropdown-content {}
+.navbar .dropdown-header {}
+.navbar .dropdown-row {}
+.navbar .dropdown-column {}
+
+/* Banner */
+.banner .content{}
+.banner .stars {}
+.banner .banner-btn {}
+
+/* About */
+.about .about-txt
+
+/* Vision */
+.vision-row {}
+.vision-row .col {}
+.vision-row .col .vision-box {}
+
+/* Goals */
+#goals .row {}
+#goals .row .col {}
+
+/* Polises */
+#polises .row {}
+#polises .row .col {}
+
+/* Units */
+#units .row {}
+#units .row .img {}
+#units .row p {}
+
+/* Terms */
+#terms .row {}
+#terms .row .col {}
+
+/* Related */
+#related .row {}
+#related .row a {}
+#related .row img {}
+
+/* Footer */
